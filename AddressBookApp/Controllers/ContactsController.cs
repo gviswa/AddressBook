@@ -1,4 +1,4 @@
-﻿using AddressBookApp.Models;
+﻿using AddressBookApp.Api.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace AddressBookApp.Controllers
+namespace AddressBookApp.Api.Controllers
 {
     public class ContactsController : ApiController
     {
